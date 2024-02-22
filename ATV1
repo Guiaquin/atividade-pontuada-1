@@ -1,0 +1,25 @@
+//atividade 1
+programa {
+  funcao inicio() {
+//declarndo variavel 
+inteiro valor1, valor2, valor3, soma
+//solicitando dados
+escreva("digite o primeiro número: ")
+leia(valor1)
+limpa()
+escreva("digite o segundo número: ")
+leia(valor2)
+limpa()
+escreva("digite o terceiro número: ")
+leia(valor3)
+limpa()
+//calculando
+soma = valor1 + valor2
+//verificando dados
+se(soma > valor3){
+escreva("o primeiro número + o segundo número é maior que o terceiro número")
+}senao{
+escreva("o primeiro número + o segundo número é menor que o terceiro número")
+}
+ }
+}
